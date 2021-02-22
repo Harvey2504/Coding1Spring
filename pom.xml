@@ -18,7 +18,6 @@
   <sonar.projectKey>Harvey2504_SpringCodingChallenege1</sonar.projectKey>
   <sonar.organization>myfirstappinqube</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
 	</properties>
 	<dependencies>
 		<dependency>
