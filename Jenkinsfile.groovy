@@ -43,7 +43,10 @@ pipeline {
         }
          stage('Maven-SonarCloud Analysis'){
             steps{
-                bat 'mvn sonar:sonar'
+                withSonarQubeEnv('sonarqube2'){
+                    bat 'mvn sonar:sonar'
+                }
+                
             }
         }
     }
